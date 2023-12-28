@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>Authentication</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <div class="main-box">
+      <div class="title">
+         Login Form
+      </div>
+
+      <form action="" id="signin-form">
+         <div class="field">
+            <input type="text" name="Email" placeholder="Email Address" required>
+         </div>
+
+         <div class="field">
+            <input type="password" name="Password" placeholder="Password" required>
+         </div>
+
+         <div class="field">
+            <button type="button" onclick="CallSignInAPI()" id="go-to-manager">Sign In</button>
+         </div>
+
+         <div class="signup-link">
+            Not a member? <a href="./pages/register.html" target="_blank">Sign up</a>
+         </div>
+      </form>
+   </div>
+
+   <script src="../script1.js"></script>
+
+</body>
+
+</html>
